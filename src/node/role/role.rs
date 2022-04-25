@@ -14,11 +14,11 @@ struct AbstractRole {
 }
 
 impl Role for AbstractRole {
-
 }
 
 struct LeaderRole {
-   role: AbstractRole
+   role: AbstractRole,
+   roleName: i32,
 }
 
 struct FollowerRole {
