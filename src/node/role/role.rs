@@ -19,6 +19,7 @@ impl Role for AbstractRole {
 struct LeaderRole {
    role: AbstractRole,
    roleName: i32,
+    name: &str,
 }
 
 struct FollowerRole {
